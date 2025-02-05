@@ -1,5 +1,5 @@
 import pytest
-from pankaj_core42.utils.system_monitor import system_monitor
+from src.pankaj_core42.utils.system_monitor import system_monitor
 
 def test_system_monitor(capsys):
     """Test that system monitor prints CPU and memory usage."""
