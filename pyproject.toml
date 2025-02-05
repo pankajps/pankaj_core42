@@ -20,3 +20,7 @@ license = { file = "LICENSE" }
 [project.urls]
 Homepage = "https://github.com/pankajps/pankaj_core42"
 Issues = "https://github.com/pankajps/pankaj_core42/issues"
+
+[tool.setuptools]
+packages = ["pankaj_core42"]
+package-dir = {"" = "src"}
